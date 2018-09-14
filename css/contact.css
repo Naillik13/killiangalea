@@ -100,20 +100,53 @@ form span{
   background-repeat:no-repeat;
   height:40px;
   width:40px;
-  display:inline-block;
+  display:block;
 
   margin-bottom:0px;
 }
+.RS > div {
+  display:flex;
+  justify-content:space-between;
+}
+.email{
+  text-align:left;
+}
 .twitter{
   background-image:url('../img/picto-twitter.png');
-  float:left
+
+}
+.twitter:hover{
+  background-image:url('../img/picto-twitter-hover.png');
+
+}
+.github{
+  background-image:url('../img/picto-github.png');
+
+}
+.github:hover{
+  background-image:url('../img/picto-github-hover.png');
+
+}
+.link{
+  color:white;
+  text-decoration:none;
+}
+.link:hover{
+  color:rgba(20,226,205,.85);
 }
 .facebook{
   background-image:url('../img/picto-facebook.png');
 }
+.facebook:hover{
+  background-image:url('../img/picto-facebook-hover.png');
+}
 .linkedin{
   background-image:url('../img/picto-linkedin.png');
-  float:right;
+
+}
+.linkedin:hover{
+  background-image:url('../img/picto-linkedin-hover.png');
+
 }
 .bloc-actif::before{
   opacity:0.8;
@@ -252,6 +285,72 @@ section > div {
 }
 .comp-id .bloc-nb{
   margin-left: calc(60% - 13px);
+}
+
+/* Adobe XD */
+.comp-ax .comp::before{
+  right:calc(40% + 13px);
+}
+.comp-ax .comp::after{
+  left:calc(60% + 13px);
+}
+.comp-ax .bloc-nb{
+  margin-left: calc(60% - 13px);
+}
+
+/* Ionic */
+.comp-io .comp::before{
+  right:calc(40% + 13px);
+}
+.comp-io .comp::after{
+  left:calc(60% + 13px);
+}
+.comp-io .bloc-nb{
+  margin-left: calc(60% - 13px);
+}
+
+/* Android Studio */
+.comp-as .comp::before{
+  right:calc(40% + 13px);
+}
+.comp-as .comp::after{
+  left:calc(60% + 13px);
+}
+.comp-as .bloc-nb{
+  margin-left: calc(60% - 13px);
+}
+
+/* VB.NET */
+.comp-vb .comp::before{
+  right:calc(40% + 13px);
+}
+.comp-vb .comp::after{
+  left:calc(60% + 13px);
+}
+.comp-vb .bloc-nb{
+  margin-left: calc(60% - 13px);
+}
+
+/* PHP */
+.comp-php .comp::before{
+  right:calc(30% + 13px);
+}
+.comp-php .comp::after{
+  left:calc(70% + 13px);
+}
+.comp-php .bloc-nb{
+  margin-left: calc(70% - 13px);
+}
+
+/* MySql */
+.comp-ms .comp::before{
+  right:calc(30% + 13px);
+}
+.comp-ms .comp::after{
+  left:calc(70% + 13px);
+}
+.comp-ms .bloc-nb{
+  margin-left: calc(70% - 13px);
 }
 
 /* html CSS*/
