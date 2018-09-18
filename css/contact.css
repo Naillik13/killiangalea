@@ -184,10 +184,10 @@ form span{
 
 }
 section > .w-40{
-  width:40%;
+  width:50%;
 }
 section > div {
-  width:30%;
+  width:25%;
 }
 #services h3 + div {
   margin-right:4%;

@@ -21,11 +21,11 @@ header{
 }
 section > div {
   height:100%;
-  width:33%;
+  width:25%;
   float:left;
 }
 section > .w-40{
-  width:34%;
+  width:50%;
 }
 
 section > div  > div{
