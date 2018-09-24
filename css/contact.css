@@ -212,9 +212,7 @@ section > div {
 /*compétences*/
 
 
-#bloc-competences .text-left > div {
-  width:48%;
-}
+
 #bloc-competences .text-left h4 {
   margin-bottom:20px;
   margin-top:5px;
@@ -225,6 +223,19 @@ section > div {
   margin-bottom:5px;
   font-weight:lighter;
   font-size:15px;
+}
+.comp-top{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  margin-bottom:20px;
+}
+.comp-top img{
+  height:60px;
+  margin-bottom:10px;
+}
+.comp span{
+  text-align:center;
 }
 .bloc-comp-left{
   display:inline-block;
@@ -237,6 +248,14 @@ section > div {
 
 .comp{
   position:relative;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  align-items:center;
+  width:100px;
+  margin:auto;
+  margin-bottom:20px;
+
 }
 .bloc-nb{
   background-color: #1eb4a1;
@@ -252,25 +271,7 @@ section > div {
   margin-bottom:10px;
   transition:margin-left 2s ease-in-out;
 }
-.comp::before{
-  content:"";
-  height:6px;
-  position:absolute;
-  left:0px;
-  right:calc(20% + 13px);
-  background-color:white;
-  top:calc(50% - 3px)
-}
-.comp::after{
-  content:"";
-  height:6px;
-  position:absolute;
-  left:calc(80% + 13px);
-  right:0;
-  background-color:rgba(255, 255, 255, 0.35 );
-  top:calc(50% - 3px)
-}
-/* illustrator */
+
 .comp-il .comp::before{
   right:calc(30% + 13px);
 }
