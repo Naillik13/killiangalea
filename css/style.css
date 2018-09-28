@@ -216,7 +216,7 @@ section div h2 {
 }
   .bloc-actif > div{
     padding-top:65px;
-    padding-bottom:65px;
+    padding-bottom:0px;
   }
 }
 

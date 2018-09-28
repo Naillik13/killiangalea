@@ -6,7 +6,7 @@
 }
 section > div > .bloc-actif > div{
   padding:25px 45px;
-  padding-bottom:0px;
+
 }
 .bloc-actif h3, .bloc-actif form, #phone{
   text-align:left;
@@ -420,7 +420,7 @@ section > div {
 /*parcours*/
 .parcours{
   margin-left:15%;
-  width:80%;
+  width:90%;
   position:relative;
   padding-bottom:50px;
 }
