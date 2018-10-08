@@ -493,12 +493,20 @@ section > div {
 .bloc-actif > div::before {
     opacity: 0.8;
 }
+figcaption {
+  text-align:left;
+  margin-top:15px;
+}
 figure img{
   width:100%;
 }
 figure span{
-  font-size:14px;
+  font-size:12px;
   font-weight:lighter;
+  color:#1fc2ad;
+  text-transform:uppercase;
+}
+figure p{
   color:#bbb;
 }
 figure h4 {
